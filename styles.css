@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHlkNGN4Z2kzNG80enJ2bW01eGd1a2t5OHVsN2c3N3FxbTlrbmUwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QGnhDpnrr7qhy/giphy.gif') center/cover;
+    background-size: cover;
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px 10px #ff00ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff00ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #d400d4;
+}
+
+.about, .features, .server-info, .contact {
+    padding: 40px 20px;
+    background: #111;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #000;
+    padding: 20px;
+    font-size: 14px;
+}
